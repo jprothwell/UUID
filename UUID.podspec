@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
   
   s.swift_version = '3.0'
 
-  s.source_files = 'UUID/Classes/**/*'
+  s.source_files = 'UUID/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'UUID' => ['UUID/Assets/*.png']
