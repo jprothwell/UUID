@@ -1,0 +1,6 @@
+framework module Pods_UUID {
+  umbrella header "Pods-UUID-umbrella.h"
+
+  export *
+  module * { export * }
+}
