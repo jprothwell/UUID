@@ -13,7 +13,7 @@
 		C6B3861B2178340A0037298F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B3861A2178340A0037298F /* Assets.xcassets */; };
 		C6B3861E2178340A0037298F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B3861C2178340A0037298F /* LaunchScreen.storyboard */; };
 		C6B386292178353A0037298F /* UUID.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C6B386282178353A0037298F /* UUID.podspec */; };
-		C6B3862F217835950037298F /* UUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B3862E217835950037298F /* UUID.swift */; };
+		C6B3863221783A120037298F /* UUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B3863121783A120037298F /* UUID.swift */; };
 		C7D10C09DCF37F63FCAE6F3E /* Pods_UUID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D9FC561740D1B94D8C15D11 /* Pods_UUID.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +29,7 @@
 		C6B3861D2178340A0037298F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6B3861F2178340A0037298F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6B386282178353A0037298F /* UUID.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UUID.podspec; sourceTree = SOURCE_ROOT; };
-		C6B3862E217835950037298F /* UUID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UUID.swift; sourceTree = "<group>"; };
+		C6B3863121783A120037298F /* UUID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UUID.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				C6B386282178353A0037298F /* UUID.podspec */,
-				C6B3862C217835950037298F /* UUID */,
+				C6B3863021783A120037298F /* Classes */,
 				C6B38613217834080037298F /* AppDelegate.swift */,
 				C6B38615217834080037298F /* ViewController.swift */,
 				C6B38617217834080037298F /* Main.storyboard */,
@@ -94,18 +94,10 @@
 			path = UUID;
 			sourceTree = "<group>";
 		};
-		C6B3862C217835950037298F /* UUID */ = {
+		C6B3863021783A120037298F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C6B3862D217835950037298F /* Classes */,
-			);
-			path = UUID;
-			sourceTree = "<group>";
-		};
-		C6B3862D217835950037298F /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				C6B3862E217835950037298F /* UUID.swift */,
+				C6B3863121783A120037298F /* UUID.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -223,7 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6B3862F217835950037298F /* UUID.swift in Sources */,
+				C6B3863221783A120037298F /* UUID.swift in Sources */,
 				C6B38616217834080037298F /* ViewController.swift in Sources */,
 				C6B38614217834080037298F /* AppDelegate.swift in Sources */,
 			);
