@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UUIDSwift'
-  s.version          = '0.0.2'
+  s.version          = '0.4.2'
   s.summary          = 'Easy UUID.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
   
-  s.swift_version = '3.0'
+  s.swift_version = '4.2'
 
   s.source_files = 'UUID/Classes/UUIDSwift.swift'
   
